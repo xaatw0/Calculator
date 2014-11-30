@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="274.0" prefWidth="218.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <center>
+      <Pane prefHeight="274.0" prefWidth="178.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btn7" layoutX="47.0" layoutY="62.0" mnemonicParsing="false" onAction="#onbtnNumberClicked" text="7" />
+            <Button fx:id="btn8" layoutX="89.0" layoutY="62.0" mnemonicParsing="false" onAction="#onbtnNumberClicked" text="8" />
+            <Button fx:id="btn9" layoutX="122.0" layoutY="62.0" mnemonicParsing="false" onAction="#onbtnNumberClicked" text="9" />
+            <Button fx:id="btn4" layoutX="47.0" layoutY="101.0" mnemonicParsing="false" onAction="#onbtnNumberClicked" text="4" />
+            <Button fx:id="btn5" layoutX="89.0" layoutY="101.0" mnemonicParsing="false" onAction="#onbtnNumberClicked" text="5" />
+            <Button fx:id="btn6" layoutX="122.0" layoutY="101.0" mnemonicParsing="false" onAction="#onbtnNumberClicked" text="6" />
+            <Button fx:id="btn1" layoutX="47.0" layoutY="140.0" mnemonicParsing="false" onAction="#onbtnNumberClicked" text="1" />
+            <Button fx:id="btn2" layoutX="89.0" layoutY="140.0" mnemonicParsing="false" onAction="#onbtnNumberClicked" text="2" />
+            <Button fx:id="btn3" layoutX="122.0" layoutY="140.0" mnemonicParsing="false" onAction="#onbtnNumberClicked" text="3" />
+            <Button fx:id="btn0" layoutX="47.0" layoutY="181.0" mnemonicParsing="false" onAction="#onbtnNumberClicked" text="0" />
+            <Button layoutX="47.0" layoutY="227.0" mnemonicParsing="false" text="+" />
+            <Button layoutX="78.0" layoutY="227.0" mnemonicParsing="false" text="-" />
+            <Button layoutX="111.0" layoutY="227.0" mnemonicParsing="false" text="*" />
+            <TextField fx:id="text" layoutX="47.0" layoutY="27.0" prefHeight="23.0" prefWidth="109.0" />
+            <Button layoutX="145.0" layoutY="227.0" mnemonicParsing="false" text="/" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
